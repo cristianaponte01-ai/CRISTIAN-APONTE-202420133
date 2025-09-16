@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-void showPackages(int n) {
+void showPackages(int n) 
+{
     if (n % 2 == 0) 
     {
         for (int i = 2; i <= n; i += 2) 
