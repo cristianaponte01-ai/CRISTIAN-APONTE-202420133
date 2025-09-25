@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-void showTable(int number, fecha) 
+void showTable(int number, int fecha) 
 {
     cout << "Hasta que fecha lo desea: ";
     cin >> fecha;
-    
+
     for (int i = 1; i <= fecha; ++i) 
     {
         cout << number << " x " << i << " = " << number * i << endl;
